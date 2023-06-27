@@ -1,0 +1,104 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+
+    width: 925px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+.left-content {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 70px 10px 50px;
+    gap: 55px;
+}
+
+
+.middle-content {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 70px 10px 50px;
+    gap: 55px;
+}
+
+.right-content {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 70px 10px 50px;
+    gap: 55px;
+
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+
+.title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+.text-content {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7em;
+    opacity: 80%;
+    font-size: 14px;
+
+}
+
+button {
+    width: 150px;
+    padding: 13px;
+    border: solid 2px hsl(0, 0%, 95%);
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+
+.left-content button{
+    color: hsl(31, 77%, 52%);
+}
+
+.middle-content button{
+    color: hsl(184, 100%, 22%);
+}
+
+ .right-content button{
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+
+}
+
