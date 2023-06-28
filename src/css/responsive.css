@@ -1,19 +1,26 @@
-@media (max-width: 950px){
+@media (max-width: 950px) {
 
 
 
-    .container{
+    .container {
         max-width: 100%;
         height: 100vh;
     }
 
-    .card{
+    .card {
         display: flex;
         flex-direction: column;
         width: 250px;
         height: 500px;
+        margin: 20px;
 
     }
 
-   
+    .left-content,
+    .middle-content,
+    .right-content {
+        margin-bottom: 20px;
+    }
+
+
 }
