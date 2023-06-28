@@ -1,52 +1,46 @@
 body {
     background-color: hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%);
-    width: 100%;
-    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 
 .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 100px;
 
-    width: 925px;
-    height: 500px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
 
 }
 
-.left-content {
-    background-color: hsl(31, 77%, 52%);
+.left-content, .middle-content, .right-content {
+    
     border-radius: 8px 0px 0px 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 320px;
+    height: 500px;
     padding: 10px 70px 10px 50px;
     gap: 55px;
+}
+
+.left-content{
+    background-color: hsl(31, 77%, 52%);
 }
 
 
 .middle-content {
     background-color: hsl(184, 100%, 22%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 10px 70px 10px 50px;
-    gap: 55px;
+    
 }
 
 .right-content {
     background-color: hsl(179, 100%, 13%);
-    border-radius: 0px 8px 8px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 10px 70px 10px 50px;
-    gap: 55px;
 
 }
 
@@ -80,19 +74,19 @@ button {
     border-radius: 60px;
     background-color: white;
     cursor: pointer;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 
-.left-content button{
+.left-content button {
     color: hsl(31, 77%, 52%);
 }
 
-.middle-content button{
+.middle-content button {
     color: hsl(184, 100%, 22%);
 }
 
- .right-content button{
+.right-content button {
     color: hsl(179, 100%, 13%);
 }
 
@@ -101,4 +95,3 @@ button:hover {
     color: hsl(0, 0%, 95%);
 
 }
-
